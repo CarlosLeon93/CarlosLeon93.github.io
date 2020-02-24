@@ -19,3 +19,7 @@ header {
     z-index: 100;
     background: rgb(0, 0, 0, 0.9);
 }
+
+nav {
+    float: left;
+}
