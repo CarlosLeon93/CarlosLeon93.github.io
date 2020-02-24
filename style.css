@@ -43,7 +43,7 @@ nav ul li a {
 }
 
 nav ul li:hover {
-    background: rgb(3, 156, 3);
+    background: #3498db;
 }
 
 .wrapper {
