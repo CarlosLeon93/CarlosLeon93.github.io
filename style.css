@@ -60,3 +60,12 @@ nav ul li a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+
+#aboutUs {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+#aboutUs h1 {
+    text-align: center;
+}
