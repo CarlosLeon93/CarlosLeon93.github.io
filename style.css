@@ -9,10 +9,6 @@
     margin: 0;
 }
 
-p {
-    margin-bottom: 20px;
-}
-
 header {
     width: 100%;
     position: fixed;
@@ -21,7 +17,7 @@ header {
 }
 
 nav {
-    float: left;
+    float: right;
 }
 
 nav ul {
@@ -42,10 +38,25 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li:hover {
+nav ul li a:hover {
     background: #3498db;
+    text-decoration-line: none;
 }
 
 .wrapper {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content {
     padding-top: 80px;
+}
+
+#myCarousel {
+    margin-top: 4px;
+    width: 75%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
