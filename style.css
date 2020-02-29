@@ -19,7 +19,9 @@ nav ul {
 nav ul li {
     float: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 135%;
+    font-weight: bold;
+    height: 10.4%;
 }
 
 nav ul li a {
@@ -41,7 +43,7 @@ nav ul li a:hover {
 }
 
 .content {
-    padding-top: 75px;
+    padding-top: 4.8%;
 }
 
 #myCarousel {
@@ -62,26 +64,35 @@ nav ul li a:hover {
 }
 
 .fa-facebook {
-    padding: 10px;
-    margin: 10px;
-    margin-right: 0px;
-    font-size: 30px;
-    width: 4%;
+    padding: 9px;
+    margin: 1%;
+    margin-right: 0%;
+    font-size: 200%;
+    width: 42px;
     height: auto;
-    text-align: center;
     text-decoration: none;
     border-radius: 50%;
     background: white;
 }
 
 .fa-instagram {
-    padding: 10px;
-    margin: 10px;
-    font-size: 30px;
-    width: 4%;
+    padding: 9px;
+    margin: 1%;
+    font-size: 200%;
+    width: 42px;
     height: auto;
-    text-align: center;
     text-decoration: none;
     border-radius: 50%;
     background: white;
+}
+
+#a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 39%;
 }
