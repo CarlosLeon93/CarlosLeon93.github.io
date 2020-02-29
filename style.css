@@ -108,7 +108,7 @@ nav ul li a:hover {
     rotate: -120deg;
     width: 75%;
     opacity: 0.6;
-    position: fixed;
+    position: absolute;
     right: 20%;
     bottom: 0%;
 }
@@ -117,7 +117,7 @@ nav ul li a:hover {
     rotate: 0deg;
     width: 75%;
     opacity: 0.6;
-    position: fixed;
+    position: absolute;
     right: 10%;
     bottom: 0%;
 }
