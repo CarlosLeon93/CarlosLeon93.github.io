@@ -36,27 +36,22 @@ nav ul li a:hover {
     text-decoration-line: none;
 }
 
-.wrapper {
-    width: 80%;
+.wrapper content {
+    width: 100%;
+    height: 10%;
     margin: auto;
-    overflow: hidden;
-}
-
-.content {
-    padding-top: 4.8%;
 }
 
 #myCarousel {
-    margin-top: 8%;
     width: 100%;
     height: 10%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 2%;
 }
 
 #aboutUs {
     margin-top: 15%;
     font-size: 160%;
+    position: absolute;
 }
 
 .fa-facebook {
@@ -102,22 +97,14 @@ nav ul li a:hover {
 
 #prices {
     font-size: 160%;
+    position: absolute;
 }
 
-#footprint_1 {
-    rotate: -120deg;
-    width: 75%;
-    opacity: 0.6;
-    position: absolute;
-    right: 20%;
-    bottom: 0%;
-}
-
-#footprint_2 {
-    rotate: 0deg;
-    width: 75%;
-    opacity: 0.6;
-    position: absolute;
-    right: 10%;
-    bottom: 0%;
+.footprint {
+    margin-top: 10%;
+    opacity: 0.5;
+    position: relative;
+    width: 80%;
+    height: 80%;
+    left: 10%;
 }
