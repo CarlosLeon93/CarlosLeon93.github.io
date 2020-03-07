@@ -1,0 +1,1 @@
+//alert("La resolucion de la pantalla es" + screen.width + "x" + screen.height)
