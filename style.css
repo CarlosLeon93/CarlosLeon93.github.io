@@ -6,6 +6,7 @@
 body {
     background-image: url(images/footprint_2_25.png);
     background-attachment: center center;
+    background-size: 50%;
 }
 
 
