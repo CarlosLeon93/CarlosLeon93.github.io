@@ -17,6 +17,10 @@ header {
     position: fixed;
     z-index: 200;
     background: rgba(0, 0, 0, 0.699);
+    background-image: url(images/logo_2_white.png);
+    background-size: 3%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 nav ul {
@@ -31,13 +35,15 @@ nav ul li {
     font-size: 135%;
     font-weight: bold;
     height: 10.4%;
+    text-align: right;
+    text-decoration: none;
+    margin-top: 2%;
 }
 
 nav ul li a {
     display: block;
     padding: 20px;
     color: #fff;
-    text-decoration: none;
 }
 
 nav ul li a:hover {
@@ -80,12 +86,6 @@ nav ul li a:hover {
 
 /*INICIO Logo*/
 
-#logo {
-    width: 60px;
-    height: 60px;
-    margin-left: 39%;
-}
-
 
 /*FIN Logo*/
 
@@ -96,7 +96,7 @@ nav ul li a:hover {
 .carousel-inner>.item>img {
     margin: 0;
     padding: 0;
-    height: 100%;
+    width: 100%;
 }
 
 
