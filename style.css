@@ -18,7 +18,7 @@ header {
     z-index: 200;
     background: rgba(0, 0, 0, 0.699);
     background-image: url(images/logo_2_white.png);
-    background-size: 3%;
+    background-size: 60px;
     background-repeat: no-repeat;
     background-position: center;
 }
