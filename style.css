@@ -5,7 +5,6 @@
 
 body {
     background-image: url(images/footprint_2_25.png);
-    background-attachment: center center;
     background-size: 100%;
 }
 
@@ -20,7 +19,7 @@ header {
     background-image: url(images/logo_2_white.png);
     background-size: 60px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 2%;
 }
 
 nav ul {
@@ -57,6 +56,11 @@ nav ul li a:hover {
 
 /*INICIO Botones Redes Sociales*/
 
+.social {
+    margin-top: 5%;
+    position: fixed;
+}
+
 .fa-facebook {
     padding: 9px;
     margin: 1%;
@@ -80,6 +84,10 @@ nav ul li a:hover {
     background: white;
 }
 
+.fa:hover {
+    text-decoration: none;
+}
+
 
 /*FIN Botones Redes Sociales*/
 
@@ -92,11 +100,32 @@ nav ul li a:hover {
 
 /*INICIO Carousel (--->Sin acabar<---) */
 
-.carousel,
+
+/*.carousel,
 .carousel-inner>.item>img {
     margin: 0;
     padding: 0;
-    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+.item>img {
+    height: 100%;
+}
+
+#myCarousel {
+    margin: 0;
+    padding: 0;
+    width: 77%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -106,13 +135,13 @@ nav ul li a:hover {
 /*INICIO Contenido (--->Sin acabar<---) */
 
 #primera {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #segunda {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #primera>#aboutUs {
