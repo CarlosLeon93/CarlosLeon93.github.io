@@ -20,9 +20,11 @@ header {
     background-size: 60px;
     background-repeat: no-repeat;
     background-position: 2%;
+    margin-bottom: 20px;
 }
 
 nav ul {
+    margin-left: 80px;
     float: right;
     list-style: none;
     overflow: hidden;
@@ -31,7 +33,7 @@ nav ul {
 nav ul li {
     float: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 135%;
+    font-size: 1.25em;
     font-weight: bold;
     height: 10.4%;
     text-align: right;
@@ -57,45 +59,47 @@ nav ul li a:hover {
 /*INICIO Botones Redes Sociales*/
 
 .social {
-    margin-top: 5%;
+    margin-top: 180px;
     position: fixed;
+    z-index: 200;
 }
 
 .fa-facebook {
     padding: 9px;
-    margin: 1%;
-    margin-right: 0%;
+    margin-left: 10%;
     font-size: 200%;
-    width: 42px;
+    width: 47px;
     height: auto;
     text-decoration: none;
     border-radius: 50%;
     background: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3498db;
 }
 
 .fa-instagram {
     padding: 9px;
-    margin: 1%;
+    margin-left: 10%;
     font-size: 200%;
-    width: 42px;
+    width: 47px;
     height: auto;
     text-decoration: none;
     border-radius: 50%;
     background: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3498db;
 }
 
 .fa:hover {
     text-decoration: none;
+    background: grey;
+    color: white;
 }
 
 
 /*FIN Botones Redes Sociales*/
-
-
-/*INICIO Logo*/
-
-
-/*FIN Logo*/
 
 
 /*INICIO Carousel (--->Sin acabar<---) */
@@ -113,20 +117,28 @@ nav ul li a:hover {
     margin-right: auto;
 }*/
 
-.item>img {
+
+/*.item>img {
     height: 100%;
+}*/
+
+#image1>img {
+    width: 100%;
+    height: auto;
+    max-height: 1000px;
+    /*width: 100%;
+    min-height: 186px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    top: -280px;*/
 }
 
-#myCarousel {
-    margin: 0;
-    padding: 0;
-    width: 77%;
-    position: relative;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+/*#myCarousel>.carousel-inner>img {
+    max-height: 100%!important;
+    width: auto!important;
+}*/
 
 
 /*FIN Carousel*/
@@ -172,4 +184,47 @@ nav ul li a:hover {
 .a:hover {
     text-decoration-line: none;
     color: black;
+}
+
+.ghost-button1 {
+    color: #fff;
+    background: #3498db;
+    border: 1px solid #3498db;
+    font-size: 90%;
+    padding: 7px 4px;
+    font-weight: normal;
+    margin: 11px 2px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 115px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.ghost-button1:hover,
+.ghost-button1:active {
+    color: #3498db;
+    background: #fff;
+}
+
+.ghost-button2 {
+    color: #3498db;
+    background: #fff;
+    border: 1px solid #3498db;
+    font-size: 90%;
+    padding: 7px 4px;
+    font-weight: normal;
+    margin: 11px 2px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 115px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.ghost-button2:hover,
+.ghost-button2:active {
+    margin-top: 7px;
 }
