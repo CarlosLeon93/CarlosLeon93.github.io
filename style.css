@@ -16,15 +16,11 @@ header {
     position: fixed;
     z-index: 200;
     background: rgba(0, 0, 0, 0.699);
-    background-image: url(images/logo_2_white.png);
-    background-size: 60px;
-    background-repeat: no-repeat;
-    background-position: 2%;
     margin-bottom: 20px;
 }
 
 nav ul {
-    margin-left: 80px;
+    margin-left: 10px;
     float: right;
     list-style: none;
     overflow: hidden;
@@ -32,24 +28,22 @@ nav ul {
 
 nav ul li {
     float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.25em;
-    font-weight: bold;
     height: 10.4%;
     text-align: right;
     text-decoration: none;
     margin-top: 2%;
 }
 
-nav ul li a {
-    display: block;
-    padding: 20px;
-    color: #fff;
+.logo {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 1%;
+    margin-top: 10px;
 }
 
-nav ul li a:hover {
-    background: #3498db;
-    text-decoration-line: none;
+.logo:hover {
+    text-decoration: none;
 }
 
 
@@ -67,6 +61,7 @@ nav ul li a:hover {
 .fa-facebook {
     padding: 9px;
     margin-left: 10%;
+    margin-bottom: 4px;
     font-size: 200%;
     width: 47px;
     height: auto;
@@ -79,6 +74,21 @@ nav ul li a:hover {
 }
 
 .fa-instagram {
+    padding: 9px;
+    margin-left: 10%;
+    margin-bottom: 4px;
+    font-size: 200%;
+    width: 47px;
+    height: auto;
+    text-decoration: none;
+    border-radius: 50%;
+    background: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3498db;
+}
+
+.fa-phone {
     padding: 9px;
     margin-left: 10%;
     font-size: 200%;
@@ -104,41 +114,11 @@ nav ul li a:hover {
 
 /*INICIO Carousel (--->Sin acabar<---) */
 
-
-/*.carousel,
-.carousel-inner>.item>img {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    position: relative;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-}*/
-
-
-/*.item>img {
-    height: 100%;
-}*/
-
 #image1>img {
     width: 100%;
     height: auto;
     max-height: 1000px;
-    /*width: 100%;
-    min-height: 186px;
-    margin-bottom: 10px;
-    overflow: hidden;
-    position: relative;
-    top: -280px;*/
 }
-
-
-/*#myCarousel>.carousel-inner>img {
-    max-height: 100%!important;
-    width: auto!important;
-}*/
 
 
 /*FIN Carousel*/
@@ -190,14 +170,14 @@ nav ul li a:hover {
     color: #fff;
     background: #3498db;
     border: 1px solid #3498db;
-    font-size: 90%;
+    font-size: 100%;
     padding: 7px 4px;
     font-weight: normal;
     margin: 11px 2px;
     display: inline-block;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    min-width: 115px;
+    min-width: 100px;
     font-weight: bold;
     border-radius: 10px;
 }
@@ -212,14 +192,14 @@ nav ul li a:hover {
     color: #3498db;
     background: #fff;
     border: 1px solid #3498db;
-    font-size: 90%;
+    font-size: 100%;
     padding: 7px 4px;
     font-weight: normal;
     margin: 11px 2px;
     display: inline-block;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    min-width: 115px;
+    min-width: 100px;
     font-weight: bold;
     border-radius: 10px;
 }

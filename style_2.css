@@ -1,0 +1,20 @@
+.carousel,
+.carousel-inner>.item>img {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item>img {
+    height: 100%;
+}
+
+#myCarousel>.carousel-inner>img {
+    max-height: 100%!important;
+    width: auto!important;
+}
