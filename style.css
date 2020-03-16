@@ -13,8 +13,16 @@ body {
 
 header {
     width: 100%;
+}
+
+header .bars {
+    display: none;
+}
+
+header nav {
+    width: 100%;
     position: fixed;
-    z-index: 200;
+    z-index: 250;
     background: rgba(0, 0, 0, 0.699);
     margin-bottom: 20px;
 }
@@ -53,7 +61,7 @@ nav ul li {
 /*INICIO Botones Redes Sociales*/
 
 .social {
-    margin-top: 180px;
+    margin-top: 80px;
     position: fixed;
     z-index: 200;
 }
@@ -150,7 +158,6 @@ nav ul li {
     color: black;
     opacity: 1;
     width: 100%;
-    background-color: crimson;
     font-size: 1.5em;
 }
 
@@ -207,4 +214,65 @@ nav ul li {
 .ghost-button2:hover,
 .ghost-button2:active {
     margin-top: 7px;
+}
+
+@media screen and (max-width:800px) {
+    header nav {
+        width: 80%;
+        height: 100%;
+        margin: 0;
+        left: -100%;
+        background: #3498db;
+        position: fixed;
+        z-index: 250;
+    }
+    header nav ul {
+        float: none;
+    }
+    header nav ul li {
+        /*Con esto abarcara todo lo que pueda de ancho*/
+        display: block;
+        float: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        text-align: left;
+        margin-right: 15px;
+    }
+    header nav button {
+        display: block;
+        width: 100%;
+        font-size: 200%;
+        background-color: #3498db;
+        border: none;
+    }
+    header .bars {
+        display: block;
+        width: 100%;
+        font-size: 200%;
+        background-color: #3498db;
+        border: none;
+        width: 100%;
+    }
+    header .bars p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        float: left;
+        margin: 10px;
+    }
+    header i {
+        float: right;
+        margin: 15px;
+    }
+    header.bars:hover {
+        background-color: #7cc1ee;
+    }
+    .logo {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        margin-top: 100px;
+    }
+    .social {
+        margin-top: 20px;
+    }
 }
