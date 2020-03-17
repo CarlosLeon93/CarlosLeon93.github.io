@@ -61,7 +61,7 @@ nav ul li {
 /*INICIO Botones Redes Sociales*/
 
 .social {
-    margin-top: 80px;
+    margin-top: 85px;
     position: fixed;
     z-index: 200;
 }
@@ -124,10 +124,20 @@ nav ul li {
 
 /*INICIO Carousel (--->Sin acabar<---) */
 
+#image1 {
+    height: 100%;
+}
+
 #image1>img {
     width: 100%;
     height: auto;
     max-height: 1000px;
+}
+
+#tassevarld {
+    position: absolute;
+    top: 30%;
+    right: 40%;
 }
 
 
@@ -179,10 +189,10 @@ nav ul li {
     color: #fff;
     background: #3498db;
     border: 1px solid #3498db;
-    font-size: 100%;
-    padding: 7px 4px;
+    font-size: 125%;
+    padding: 7px 20px;
     font-weight: normal;
-    margin: 11px 2px;
+    margin: 7px 2px;
     display: inline-block;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
@@ -201,10 +211,10 @@ nav ul li {
     color: #3498db;
     background: #fff;
     border: 1px solid #3498db;
-    font-size: 100%;
-    padding: 7px 4px;
+    font-size: 125%;
+    padding: 7px 20px;
     font-weight: normal;
-    margin: 11px 2px;
+    margin: 7px 2px;
     display: inline-block;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
@@ -215,7 +225,7 @@ nav ul li {
 
 .ghost-button2:hover,
 .ghost-button2:active {
-    margin-top: 7px;
+    margin-top: 3px;
 }
 
 @media screen and (max-width:800px) {
