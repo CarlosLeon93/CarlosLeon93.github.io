@@ -136,14 +136,14 @@ nav ul li {
 
 #tassevarld {
     position: absolute;
-    top: 90%;
+    margin-top: 47%;
     right: 40%;
 }
 
 .slogan {
     position: absolute;
     left: 57%;
-    top: 55%;
+    margin-top: 20%;
     font-family: "futura-pt", sans-serif;
     text-transform: uppercase;
     font-weight: 800;
@@ -306,6 +306,5 @@ header nav ul {
     }
     .slogan {
         font-size: 25px;
-        top: 18%;
     }
 }
