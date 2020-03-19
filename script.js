@@ -1,6 +1,6 @@
 //alert("La resolucion de la pantalla es" + screen.width + "x" + screen.height)
 function myFunction() {
-    window.alert("More information: +46736914525")
+    window.alert("-More information: +46736914525")
 }
 
 $(document).ready(main);
