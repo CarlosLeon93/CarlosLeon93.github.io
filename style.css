@@ -48,6 +48,7 @@ nav ul li {
     position: relative;
     left: 1%;
     margin-top: 10px;
+    margin-left: 10%;
 }
 
 .logo:hover {
@@ -131,13 +132,25 @@ nav ul li {
 #image1>img {
     width: 100%;
     height: auto;
-    max-height: 1000px;
 }
 
 #tassevarld {
     position: absolute;
-    top: 25%;
+    top: 90%;
     right: 40%;
+}
+
+.slogan {
+    position: absolute;
+    left: 57%;
+    top: 55%;
+    font-family: "futura-pt", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    margin-right: 7%;
 }
 
 
@@ -183,6 +196,10 @@ nav ul li {
 .a:hover {
     text-decoration-line: none;
     color: black;
+}
+
+header nav ul {
+    margin-right: 10%;
 }
 
 .ghost-button1 {
@@ -286,5 +303,9 @@ nav ul li {
     }
     .social {
         margin-top: 20px;
+    }
+    .slogan {
+        font-size: 30px;
+        top: 20%;
     }
 }
