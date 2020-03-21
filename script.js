@@ -6,15 +6,22 @@ function myFunction() {
 $(document).ready(main);
 
 var contador = true;
-var userHasScrolled = false;
 
 function main() {
 
+    const mediumBp = matchMedia('(min-width: 600px)');
+    const changeSize = mql => {
+
+        mql.matches ?
+            $('nav').animate({ left: '0%' }) :
+            $('nav').animate({ left: '-100%' })
+
+    }
+    mediumBp.addListener(changeSize);
+
     $('.bars').click(function() {
         //$('nav').toggle();
-        window.onscroll = function() {
-            userHasScrolled = true;
-        }
+
         if (contador == true) {
 
             $('nav').animate({
@@ -22,20 +29,18 @@ function main() {
             });
             contador = false;
 
-
-        } else if (contador == false && userHasScrolled == true) {
-
-            $('nav').animate({
-                left: '-100%'
-            });
-            contador = true;
-            userHasScrolled = false;
         } else {
             $('nav').animate({
                 left: '-100%'
             });
             contador = true;
         }
-
     });
+    $(document).addEventListener('scroll', function() {
+        $('nav').animate({
+            left: '-100%'
+        });
+        contador = true;
+    });
+
 }
