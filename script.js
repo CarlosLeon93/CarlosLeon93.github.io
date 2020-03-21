@@ -36,11 +36,17 @@ function main() {
             contador = true;
         }
     });
-    $(document).addEventListener('scroll', function() {
+    $(document).scroll(function() {
         $('nav').animate({
             left: '-100%'
         });
         contador = true;
     });
+    /*$(document).addEventListener('scroll', function() {
+        $('nav').animate({
+            left: '-100%'
+        });
+        contador = true;
+    });*/
 
 }
