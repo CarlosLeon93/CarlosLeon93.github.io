@@ -9,9 +9,9 @@ var contador = true;
 
 function main() {
 
-    $('.slogan').animate({ bottom: '40%', opacity: '0.9' }, 2000);
+    $('.slogan').animate({ bottom: '40%', opacity: '0.95' }, 2000);
 
-    const mediumBp = matchMedia('(min-width: 600px)');
+    /*const mediumBp = matchMedia('(min-width: 600px)');
     const changeSize = mql => {
 
         mql.matches ?
@@ -20,19 +20,20 @@ function main() {
 
     }
     mediumBp.addListener(changeSize);
+    changeSize(mediumBp);*/
 
     $('.bars').click(function() {
         //$('nav').toggle();
 
         if (contador == true) {
 
-            $('nav').animate({
+            $('.nav2').animate({
                 left: '0%'
             });
             contador = false;
 
         } else {
-            $('nav').animate({
+            $('.nav2').animate({
                 left: '-100%'
             });
             contador = true;
@@ -41,7 +42,15 @@ function main() {
 
     $('.ghost').click(function() {
 
-        $('nav').animate({
+        $('.nav2').animate({
+            left: '-100%'
+        });
+        contador = true;
+
+    });
+    $('.home').click(function() {
+
+        $('.nav2').animate({
             left: '-100%'
         });
         contador = true;

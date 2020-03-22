@@ -19,7 +19,11 @@ header .bars {
     display: none;
 }
 
-header nav {
+header .nav2 {
+    display: none;
+}
+
+header .nav1 {
     width: 100%;
     position: fixed;
     z-index: 250;
@@ -27,14 +31,15 @@ header nav {
     margin-bottom: 20px;
 }
 
-nav ul {
+header .nav1 ul {
     margin-left: 10px;
     float: right;
     list-style: none;
     overflow: hidden;
+    margin-right: 10%;
 }
 
-nav ul li {
+header .nav1 ul li {
     float: left;
     height: 10.4%;
     text-align: right;
@@ -200,10 +205,6 @@ nav ul li {
     color: black;
 }
 
-header nav ul {
-    margin-right: 10%;
-}
-
 .ghost-button1 {
     color: #fff;
     background: #3498db;
@@ -251,7 +252,11 @@ header nav ul {
     #image1>img {
         margin-top: 55px;
     }
-    header nav {
+    header .nav1 {
+        display: none;
+    }
+    header .nav2 {
+        display: block;
         width: 100%;
         height: 100%;
         margin: 0;
@@ -261,10 +266,10 @@ header nav ul {
         z-index: 250;
         margin-top: 55px;
     }
-    header nav ul {
+    header .nav2 ul {
         float: none;
     }
-    header nav ul li {
+    header .nav2 ul li {
         /*Con esto abarcara todo lo que pueda de ancho*/
         display: block;
         float: none;
@@ -272,7 +277,7 @@ header nav ul {
         text-align: left;
         margin-right: 15px;
     }
-    header nav button {
+    header button {
         display: block;
         width: 100%;
         font-size: 200%;
