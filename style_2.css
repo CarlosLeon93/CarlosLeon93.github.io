@@ -1,20 +1,94 @@
-.carousel,
-.carousel-inner>.item>img {
+@media screen and (max-width: 800px) {
+  :root {
+    --animation-time: 0.3s;
+  }
+  .float-button {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: #33bbff;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 100;
+    -webkit-transition: -webkit-transform var(--animation-time);
+    transition: -webkit-transform var(--animation-time);
+    transition: transform var(--animation-time);
+    transition: transform var(--animation-time), -webkit-transform var(--animation-time);
+    cursor: pointer;
+  }
+  .float-button.pulsed {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    background: #0099e6;
+  }
+  .float-button::before, .float-button::after {
+    position: absolute;
+    width: 40%;
+    height: 4%;
+    content: "";
+    top: 49%;
+    left: 30%;
+    background: #fff;
+  }
+  .float-button::after {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .circular-menu {
+    position: absolute;
+    display: block;
+    width: 24rem;
+    height: 24rem;
+    background: #33bbff;
+    bottom: -5.5rem;
+    right: -5.5rem;
+    border-radius: 50%;
+    -webkit-transform: scale(0) rotate(-180deg);
+            transform: scale(0) rotate(-180deg);
+    opacity: 0;
+    -webkit-transition: all var(--animation-time);
+    transition: all var(--animation-time);
+    z-index: 50;
+  }
+  .circular-menu.expand {
+    -webkit-transform: scale(1) rotate(0);
+            transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+  .circular-menu ul {
     margin: 0;
     padding: 0;
-    height: 100%;
-    position: relative;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    list-style: none;
+    font-size: 1.5rem;
+  }
+  .circular-menu a {
+    color: #fff;
+  }
+  .circular-menu li {
+    position: absolute;
+    width: 2rem;
+    top: 2rem;
+    left: calc(50% - 1rem);
+    -webkit-transform-origin: center 10rem;
+            transform-origin: center 10rem;
+    text-align: center;
+  }
+  .circular-menu li:nth-child(2) {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .circular-menu li:nth-child(2) a {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .circular-menu li:nth-child(3) {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  .circular-menu li:nth-child(3) a {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
 }
-
-.item>img {
-    height: 100%;
-}
-
-#myCarousel>.carousel-inner>img {
-    max-height: 100%!important;
-    width: auto!important;
-}
+/*# sourceMappingURL=style_2.css.map */

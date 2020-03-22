@@ -11,19 +11,7 @@ function main() {
 
     $('.slogan').animate({ bottom: '40%', opacity: '0.95' }, 2000);
 
-    /*const mediumBp = matchMedia('(min-width: 600px)');
-    const changeSize = mql => {
-
-        mql.matches ?
-            $('nav').animate({ left: '0%' }) :
-            $('nav').animate({ left: '-100%' })
-
-    }
-    mediumBp.addListener(changeSize);
-    changeSize(mediumBp);*/
-
     $('.bars').click(function() {
-        //$('nav').toggle();
 
         if (contador == true) {
 
@@ -56,19 +44,11 @@ function main() {
         contador = true;
 
     });
+    const floatButton = document.getElementById('float-button'),
+        circularMenu = document.getElementById('circular-menu');
 
-    /*window.onscroll = function() {
-        $('nav').animate({
-            left: '-100%'
-        });
-        contador = true;
-
-    };*/
-    /*$(document).addEventListener('scroll', function() {
-        $('nav').animate({
-            left: '-100%'
-        });
-        contador = true;
-    });*/
-
+    floatButton.addEventListener('click', () => {
+        floatButton.classList.toggle('pulsed');
+        circularMenu.classList.toggle('expand');
+    })
 }
