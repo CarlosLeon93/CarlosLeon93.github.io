@@ -143,13 +143,15 @@ nav ul li {
 .slogan {
     position: absolute;
     left: 57%;
+    bottom: 3%;
     margin-top: 20%;
     font-family: "futura-pt", sans-serif;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 50px;
+    opacity: 0.1;
     text-align: center;
-    color: rgba(0, 0, 0, 0.897);
+    color: black;
     margin-right: 7%;
 }
 

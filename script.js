@@ -9,6 +9,8 @@ var contador = true;
 
 function main() {
 
+    $('.slogan').animate({ bottom: '40%', opacity: '0.9' }, 2000);
+
     const mediumBp = matchMedia('(min-width: 600px)');
     const changeSize = mql => {
 
@@ -36,6 +38,7 @@ function main() {
             contador = true;
         }
     });
+
     /*window.onscroll = function() {
         $('nav').animate({
             left: '-100%'
