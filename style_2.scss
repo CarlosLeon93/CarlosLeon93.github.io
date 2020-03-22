@@ -9,7 +9,7 @@
         height: 5rem;
         border-radius: 50%;
         background: $color;
-        position: absolute;
+        position: fixed;
         bottom: 1rem;
         right: 1rem;
         z-index: 100;
@@ -34,7 +34,7 @@
         }
     }
     .circular-menu {
-        position: absolute;
+        position: fixed;
         display: block;
         width: 24rem;
         height: 24rem;
