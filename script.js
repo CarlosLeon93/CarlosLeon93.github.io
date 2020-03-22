@@ -39,6 +39,15 @@ function main() {
         }
     });
 
+    $('.ghost').click(function() {
+
+        $('nav').animate({
+            left: '-100%'
+        });
+        contador = true;
+
+    });
+
     /*window.onscroll = function() {
         $('nav').animate({
             left: '-100%'
