@@ -36,12 +36,13 @@ function main() {
             contador = true;
         }
     });
-    window.onscroll = function() {
+    /*window.onscroll = function() {
         $('nav').animate({
             left: '-100%'
         });
         contador = true;
-    };
+
+    };*/
     /*$(document).addEventListener('scroll', function() {
         $('nav').animate({
             left: '-100%'

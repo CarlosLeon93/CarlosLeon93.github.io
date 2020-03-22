@@ -246,14 +246,18 @@ header nav ul {
 }
 
 @media screen and (max-width:800px) {
+    #image1>img {
+        margin-top: 55px;
+    }
     header nav {
-        width: 80%;
+        width: 100%;
         height: 100%;
         margin: 0;
         left: -100%;
         background: #3498db;
         position: fixed;
         z-index: 250;
+        margin-top: 55px;
     }
     header nav ul {
         float: none;
@@ -279,7 +283,8 @@ header nav ul {
         font-size: 200%;
         background-color: #3498db;
         border: none;
-        width: 100%;
+        position: fixed;
+        z-index: 250;
     }
     header .bars p {
         font-family: 'Open Sans', sans-serif;
@@ -298,13 +303,16 @@ header nav ul {
     .logo {
         position: absolute;
         top: 50%;
-        margin-left: 45px;
+        left: 6%;
         margin-top: 100px;
     }
     .social {
-        margin-top: 20px;
+        margin-top: 70px;
     }
     .slogan {
         font-size: 25px;
+    }
+    #tassevarld {
+        margin-top: 58%;
     }
 }
