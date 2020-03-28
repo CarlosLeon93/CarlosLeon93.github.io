@@ -3,8 +3,8 @@
     --animation-time: 0.3s;
   }
   .float-button {
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
     border-radius: 50%;
     background: #33bbff;
     position: fixed;
