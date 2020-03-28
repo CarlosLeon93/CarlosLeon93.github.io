@@ -445,4 +445,7 @@ header .nav1 ul li {
     .container-body {
         display: inline-block;
     }
+    .column-2 {
+        padding-left: 0;
+    }
 }
