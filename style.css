@@ -379,7 +379,7 @@ header .nav1 ul li {
 @media screen and (max-width:800px) {
     #image1 img {
         margin-top: 55px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
     header .nav1 {
         display: none;
@@ -451,6 +451,12 @@ header .nav1 ul li {
     }
     #tassevarld {
         margin-top: 58%;
+    }
+    #tabla-precios {
+        margin-top: 20px;
+    }
+    .text-prices {
+        margin-top: 0;
     }
     .container-body {
         display: inline-block;
